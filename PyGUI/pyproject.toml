@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyGUI"
+version = "0.1.0"
+description = "A helpful PySide6 GUI helper package"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Shanveer Singh", email = "shanveersinghsodha2014@gmail.com" }
+]
+requires-python = ">=3.12.1"
+dependencies = [
+  "PySide6"
+]
+classifiers = [
+  "Programming Language :: Python :: 3.12.1",
+  "Operating System :: OS Independent"
+]
